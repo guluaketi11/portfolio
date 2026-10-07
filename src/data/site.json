@@ -1,0 +1,226 @@
+{
+  "name": "Keti Gulua",
+  "location": "Tbilisi, Georgia",
+  "links": {
+    "upwork": "",
+    "github": "https://github.com/guluaketi11",
+    "linkedin": ""
+  },
+  "projects": [
+    {
+      "id": "lumen-tv",
+      "title": "Lumen TV",
+      "year": 2026,
+      "summary": "A TV-style streaming app you control with a remote.",
+      "points": [
+        "Focus-based navigation with arrow keys, OK and Back, including Samsung Tizen and LG webOS remote keys",
+        "HLS player with automatic reconnect, media-error recovery and a clear error screen with retry",
+        "1920×1080 layout that scales to any screen, with the video player loaded on demand"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "hls.js",
+        "Vite"
+      ],
+      "images": [
+        {
+          "src": "/projects/lumen-tv-home.webp",
+          "alt": "Lumen TV home screen with a hero banner and rows of titles"
+        },
+        {
+          "src": "/projects/lumen-tv-details.webp",
+          "alt": "Lumen TV details screen for Sintel with Play and Back buttons"
+        },
+        {
+          "src": "/projects/lumen-tv-error.webp",
+          "alt": "Lumen TV player error screen with Try again and Back"
+        }
+      ],
+      "demo": "https://lumen-tv-one.vercel.app",
+      "source": "https://github.com/guluaketi11/lumen-tv"
+    },
+    {
+      "id": "lumen-studio",
+      "title": "Lumen Studio",
+      "year": 2026,
+      "summary": "An Angular admin dashboard for managing the Lumen catalog.",
+      "points": [
+        "Dashboard with hand-built SVG charts: daily views with a hover and keyboard crosshair, views by genre and titles by status",
+        "Titles table with debounced search, filters, sortable columns, pagination and loading, empty and error states",
+        "Edit drawer with reactive form validation, plus light and dark themes"
+      ],
+      "stack": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "Signals"
+      ],
+      "images": [
+        {
+          "src": "/projects/lumen-studio-overview.webp",
+          "alt": "Lumen Studio overview dashboard with charts and key numbers"
+        },
+        {
+          "src": "/projects/lumen-studio-titles.webp",
+          "alt": "Lumen Studio titles table in dark mode"
+        },
+        {
+          "src": "/projects/lumen-studio-edit.webp",
+          "alt": "Lumen Studio edit drawer showing validation errors"
+        }
+      ],
+      "demo": "https://lumen-studio-sooty.vercel.app",
+      "source": "https://github.com/guluaketi11/lumen-studio"
+    },
+    {
+      "id": "huddle",
+      "title": "Huddle",
+      "year": 2026,
+      "summary": "A responsive social feed where you can post, like, comment and save.",
+      "points": [
+        "Posts with photos resized in the browser, likes, comments, sharing and a saved list",
+        "Clickable hashtags, trending topics, search and Latest/Top sorting",
+        "Three-column desktop layout that becomes a bottom tab bar on phones, with light and dark themes"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "CSS"
+      ],
+      "images": [
+        {
+          "src": "/projects/huddle-home.webp",
+          "alt": "Huddle home feed with composer, posts and trending sidebar"
+        },
+        {
+          "src": "/projects/huddle-dark.webp",
+          "alt": "Huddle feed in dark mode"
+        },
+        {
+          "src": "/projects/huddle-profile.webp",
+          "alt": "Huddle profile page with stats"
+        }
+      ],
+      "demo": "",
+      "source": "https://github.com/guluaketi11/huddle"
+    },
+    {
+      "id": "payback",
+      "title": "Payback",
+      "year": 2026,
+      "summary": "A loan and mortgage calculator that shows what extra payments save you.",
+      "points": [
+        "Monthly payment, total interest and payoff date that update as you type or drag the sliders",
+        "Balance chart comparing regular and extra payments, plus a yearly breakdown",
+        "GEL, USD and EUR, shareable links with every input kept in the URL"
+      ],
+      "stack": [
+        "React",
+        "TypeScript",
+        "SVG",
+        "Intl"
+      ],
+      "images": [
+        {
+          "src": "/projects/payback-light.webp",
+          "alt": "Payback loan calculator with inputs and monthly payment"
+        },
+        {
+          "src": "/projects/payback-dark.webp",
+          "alt": "Payback results in dark mode with savings message"
+        },
+        {
+          "src": "/projects/payback-chart.webp",
+          "alt": "Payback remaining balance chart and yearly breakdown table"
+        }
+      ],
+      "demo": "https://payback-three.vercel.app",
+      "source": "https://github.com/guluaketi11/payback"
+    },
+    {
+      "id": "lumen-api",
+      "title": "Lumen API",
+      "year": 2026,
+      "summary": "The REST API behind the Lumen catalog, built with Node.js and Express.",
+      "points": [
+        "JWT authentication with editor and admin roles, bcrypt password hashing",
+        "Titles CRUD with search, filters, sorting and pagination; catalog stats aggregated with Sequelize",
+        "Zod validation with field-level errors, Swagger docs and 15 integration tests"
+      ],
+      "stack": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "Sequelize",
+        "Vitest"
+      ],
+      "images": [
+        {
+          "src": "/projects/lumen-api-docs.webp",
+          "alt": "Lumen API Swagger documentation listing all endpoints"
+        },
+        {
+          "src": "/projects/lumen-api-response.webp",
+          "alt": "Swagger try-it-out response for listing Fantasy titles"
+        }
+      ],
+      "demo": "https://lumen-api-jxsf.onrender.com/docs/",
+      "source": "https://github.com/guluaketi11/lumen-api"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Frontend",
+      "items": [
+        "Angular",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "Sequelize",
+        "Unit testing"
+      ]
+    },
+    {
+      "group": "TV & video",
+      "items": [
+        "Samsung Tizen",
+        "Cobalt set-top boxes",
+        "HLS / hls.js",
+        "DRM",
+        "Remote-control navigation",
+        "Sentry"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "cavea+",
+      "role": "Full-stack developer",
+      "period": "Now",
+      "points": [
+        "Angular web app: video player integration, error handling and monitoring",
+        "Node.js/TypeScript/Express backend: REST APIs, Sequelize, DRM proxy, unit tests",
+        "Smart TV app for Samsung Tizen and a React admin panel"
+      ]
+    },
+    {
+      "company": "re:soft",
+      "role": "Web developer",
+      "period": "Sep 2024 – Dec 2025",
+      "points": [
+        "Built and maintained web applications for client projects"
+      ]
+    }
+  ]
+}
